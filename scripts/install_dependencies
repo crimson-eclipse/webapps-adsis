@@ -1,0 +1,6 @@
+#!/bin/bash
+apt install -y apache2
+apt install -y mysql-server
+apt install -y php
+apt install -y php-mysql
+rm /var/www/html/index.html
